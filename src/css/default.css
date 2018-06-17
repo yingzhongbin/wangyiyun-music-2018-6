@@ -1,0 +1,96 @@
+*{padding: 0;margin: 0;}
+*{box-sizing: border-box;}
+*::after{box-sizing: border-box;}
+*::before{box-sizing: border-box;}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;text-decoration:none;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* layout */
+
+.page{
+    display: flex;
+    height:100vh;
+}
+.page aside{
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.page main{
+    flex-grow: 1;
+    background-color: #D9D9D9;
+}
+
+/* aside区 */
+.page aside .newSong{
+    /* height: 30px; */
+    padding:10px 0px;
+    text-align: center;
+}
+.page aside .newSong.active{
+    background-color: #d4d4d4;
+}
+.page aside .songList-container{
+    flex-grow: 1;
+}
+.page aside ul{
+    border-top: 1px solid #999;
+}
+.page aside ul div.active{
+    background-color: #d4d4d4;
+}
+.page aside ul div li{
+    padding: 10px 10px;
+    border-bottom:1px solid #ddd;
+    margin: 0px 10px;
+}
+.page aside .uploadArea .dragable,
+.page aside .uploadArea .clickable{
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+.page aside .uploadArea .clickable{
+    padding: 20px;
+    border: 3px dotted gray;
+    cursor: pointer;
+}
+.page aside .uploadArea .dragable p{
+    margin: 4px 0px;
+}
+/* .page main区 */
+.page main form{
+    margin-left: 2em;
+}
+.page main .row{
+    margin-bottom: 10px;
+}
+.page main form input{
+    height: 22px;
+    border-radius: 4px;
+    border:none;
+}
+.page main form button{
+    margin-left: 4em;
+    padding: 2px 7px;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+.page main form label{
+    vertical-align: baseline;
+    font-size: 10px;
+}
