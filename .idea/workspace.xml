@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5cd945-f67b-4f88-a056-25560c4dd54e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/49 毕设：网易云音乐.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/disc-inner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/disc-out.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/disc_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img-play/needle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/page-1-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/page-1-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/page-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/page-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/page-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/play/play.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/album-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/album-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/10290658881429065888.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/event-hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/initializers/event-hub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/new-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/new-song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/song-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/song-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/song-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/song-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/upload-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/upload-song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img-play/disc-out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/play.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="play.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/play.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="102">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="album-list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="album-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/album-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="377" selection-start-line="377" selection-end-line="377" />
+            <state relative-caret-position="242">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
               <folding>
                 <element signature="n#li#0;n#ol#0;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -122,9 +97,9 @@
         <option value="$PROJECT_DIR$/src/js/admin/upload-song.js" />
         <option value="$PROJECT_DIR$/src/admin.html" />
         <option value="$PROJECT_DIR$/src/js/admin/song-form.js" />
-        <option value="$PROJECT_DIR$/src/album-list.html" />
         <option value="$PROJECT_DIR$/src/js/play/play.js" />
         <option value="$PROJECT_DIR$/src/play.html" />
+        <option value="$PROJECT_DIR$/src/album-list.html" />
       </list>
     </option>
   </component>
@@ -145,7 +120,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="344" />
+    <option name="x" value="100" />
     <option name="y" value="23" />
     <option name="width" value="1296" />
     <option name="height" value="741" />
@@ -249,15 +224,15 @@
       <workItem from="1531094308885" duration="11668000" />
       <workItem from="1531182821478" duration="15181000" />
       <workItem from="1531267137026" duration="6551000" />
-      <workItem from="1531356392264" duration="6479000" />
+      <workItem from="1531356392264" duration="6946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45442000" />
+    <option name="totallyTimeSpent" value="45909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="344" y="23" width="1296" height="741" extended-state="0" />
+    <frame x="100" y="23" width="1296" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49473685" visible="true" weight="0.20708661" />
@@ -529,16 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/album-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="377" selection-start-line="377" selection-end-line="377" />
-          <folding>
-            <element signature="n#li#0;n#ol#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -562,8 +527,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="102">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/album-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="n#li#0;n#ol#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
