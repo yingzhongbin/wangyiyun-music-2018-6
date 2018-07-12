@@ -54,13 +54,11 @@
                         var res = info.response;
                         var res = JSON.parse(res);
                         var sourceLink = "http://" + domain + "/" + encodeURIComponent(res.key); //获取上传成功后的文件的Url
-                        console.log(sourceLink)
-                        console.log("----------")
-                        console.log(res.key)
+                        let arr = res.key.split("-");
                         window.eventHub.emit("upload",{
                             link:sourceLink,
-                            // key:res.key,
-                            name:res.key
+                            singer:(arr[0]+"").trim(),
+                            name:(arr[1]+"").trim(),
                         })
                     },
                     'Error': function(up, err, errTip) {

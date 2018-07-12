@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>我的网易云音乐</title>
+        <script src="//at.alicdn.com/t/font_710646_u3ni0yplow9.js"></script>
+        <script src="../node_modules/leancloud-storage/dist/av-min.js"></script>
+        <script src="../vendor/moxie.min.js"></script>
+        <script src="../node_modules/plupload/js/plupload.min.js"></script>
+        <script src="../node_modules/qiniu-js/dist/qiniu.min.js"></script>
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <style type="text/css">
+             html { overflow-x: hidden; overflow-y: hidden; }
+             .icon {
+                /* width: 1em; height: 1em; */
+                vertical-align: -0.15em;
+                fill: currentColor;
+                overflow: hidden;
+            }
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            @keyframes myrotate
+            {
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);}
+            }
+            #app{
+                height: 100vh;
+                width: 100%;
+                position: relative;
+
+            }
+            #app #app-background{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top:0;
+                background: url(./img/img-play/background.png) center center no-repeat;
+                background-size: cover;
+                z-index: -1;
+                filter:blur(4px);
+            }
+            #app > img{
+                width:100px;
+                position: absolute;
+                left:9px;
+                top:12px;
+                z-index: 1;
+            }
+       
+            header{ 
+                margin: 0 auto; 
+                padding-top: 63px;
+                box-sizing: border-box;
+                width: 248px;
+                position: relative;
+            }
+            header::after{
+                content: " ";
+                position: absolute;
+                top: 0px;
+                left: 107px;
+                z-index: 5;
+                width: 84px;
+                height: 122px;
+                background-image: url(./img/img-play/needle.png);
+                background-size: contain;
+            }
+            header .out{
+                width: 248px;
+                height: 248px;
+                bottom: 0px;
+                animation: myrotate 20s infinite linear;
+                /* position: absolute; */
+                animation-play-state: running;
+
+            }
+            header .inner{
+                width: 248px;
+                height: 248px;
+                animation: myrotate 20s infinite linear;
+                bottom: 0;
+                position: absolute;
+                animation-play-state: running;
+            }
+             header .inner .cover{
+                 width: 154px;
+                 height: 154px;
+                 position: absolute;
+                 left: 50%;
+                 top: 50%;
+                 margin-left: -77px;
+                 margin-top: -77px;
+                 border-radius: 50%;
+                 background-size: cover;
+                 background: url("./img/img-play/disc-inner.png") center center no-repeat;
+
+             }
+            header > .svg-container{
+                width: 248px;
+                height: 248px;
+                position: absolute;
+                bottom:0;
+            }
+            header > .svg-container svg {
+                width: 58px;
+                height: 58px;
+                position: absolute;
+                top:50%;
+                left: 50%;
+                margin-top: -29px;
+                margin-left: -29px;
+                color: white;
+                visibility: hidden;
+            }
+             header > .svg-container.hidden svg {
+                 visibility: visible;
+             }
+            header .out.paused,header .inner.paused{
+                animation-play-state: paused;
+            }
+            @media(min-width:360px){
+               header{
+                    box-sizing: border-box;
+                    width: 296px;
+               }
+               header::after{
+                    width: 96px;
+                    height: 137px;
+                    left: 133px;
+                }
+                header > .svg-container{
+                    width: 296px;
+                    height: 296px;
+                }
+                header > .svg-container svg {
+                    width: 64px;
+                    height: 64px;
+                    margin-top: -32px;
+                    margin-left: -32px;
+                }
+                header .out{
+                    width: 296px;
+                    height: 296px;
+                    bottom: 0px;
+                    animation: myrotate 20s infinite linear;
+                    /* position: absolute; */
+                }
+                header .inner{
+                    width: 296px;
+                    height: 296px;
+                    animation: myrotate 20s infinite linear;
+                    bottom: 0;
+                    position: absolute;
+                }
+                header .inner .cover{
+                    width: 184px;
+                    height: 184px;
+                    margin-left: -92px;
+                    margin-top: -92px;
+                }
+            }
+            @media(min-width:414px){
+                header{
+                    padding-top: 80px;
+                    box-sizing: border-box;
+                    width: 342px;
+               }
+               header::after{
+                   content:"";
+                    width: 110px;
+                    height: 157px;
+                    left: 150px;
+                }
+                header .out{
+                    width: 342px;
+                    height: 342px;
+                    bottom: 0px;
+                    animation: myrotate 20s infinite linear;
+                    /* position: absolute; */
+                }
+                header .inner{
+                    width: 342px;
+                    height: 342px;
+                    animation: myrotate 20s infinite linear;
+                    bottom: 0;
+                    position: absolute;
+
+                }
+                header .inner .cover{
+                    width: 212px;
+                    height: 212px;
+                    margin-left: -106px;
+                    margin-top: -106px;
+                }
+                header > .svg-container{
+                    width: 342px;
+                    height: 342px;
+                    visibility: hidden;
+                }
+                header > .svg-container svg {
+                    width: 76px;
+                    height: 76px;
+                    margin-top: -38px;
+                    margin-left: -38px;
+                }
+            }
+            header > div{
+                border-radius: 50%;
+                overflow: hidden;
+                width: 100%;
+            }
+            header img{
+                width: 100%;
+            }
+            .links{
+                bottom: 0;
+                width: 100vw;
+               position: absolute;
+               display: flex;
+               justify-content: space-between;
+               
+            }
+            .links a{
+                color: #d33a31;
+                border:1px solid #d33a31;
+                text-decoration: none;
+                padding: 0 6px;
+                text-align: center;
+                border-radius: 40px;
+                font-size: 18px;
+                height: 40px;
+                line-height: 40px;
+                flex-grow: 1;
+                margin:0 10px;
+                margin-bottom: 10px;
+            }
+            .links a.main{
+                margin-left: 0px;
+                background-color: #d33a31;
+                color: white;
+            }
+            .lyric-container{
+                height: 105px;
+                /*border:1px solid green;*/
+                margin-top: 15px;
+                overflow: hidden;
+
+            }
+            .lyric-container h1{
+                height: 20px;
+                /*border:1px solid red;*/
+                font-size: 15px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+            }
+             .lyric-container h1 span{
+                 font-size: 18px;
+             }
+             .lyric-container h1 b{
+                 font-size: 16px;
+                 color: hsla(0,0%,100%,.6);
+             }
+             .lyric-container .lines-container{
+                 /*background-color: red;*/
+                 width: 100%;
+                 height: 81px;
+                 overflow: hidden;
+             }
+            .lyric-container .lines-container .lines{
+                height: 100%;
+                text-align: center;
+                margin-top: 6px;
+                color: hsla(0,0%,100%,.6);
+                line-height:19.5px;
+            }
+            .lyric-container .lines-container .lines p.active{
+                color: rgb(255, 255, 255);
+            }
+             .lyric-container .lines-container .lines p{
+                 font-size: 16px;
+                 color: hsla(0,0%,100%,.6);
+                 padding-bottom: 8px;
+             }
+            audio{
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <div id="app-background"></div>
+            <img src="./img/img-play/logo.png" alt="网易云音乐">
+            <header>
+                <div class="out">
+                    <img src="./img/img-play/disc-out.png" alt="" class="out">
+                </div>
+                <div class="inner">
+                    <img src="./img/img-play/disc_light.png" alt="">
+                    <div class="cover"></div>
+                </div>
+                <div class="svg-container">
+                    <svg class="icon active" aria-hidden="true">
+                        <use xlink:href="#icon-play"></use>
+                    </svg>
+                </div>
+            </header>
+            <main>
+                <div class="lyric-container">
+                    <h1>
+                        <span></span>
+                        <b></b>
+                    </h1>
+                    <div class="lines-container">
+                        <div class="lines">
+                            <!--歌词-->
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="links">
+                <a href="">打 开</a>
+                <a href="" class="main">下 载</a>
+            </div>
+        </div>
+        <script src="js/initializers/av.js"></script>
+        <script src="js/initializers/event-hub.js"></script>
+
+        <script src="js/play/play.js"></script>
+    </body>
+</html>

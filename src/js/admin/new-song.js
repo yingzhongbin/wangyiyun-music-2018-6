@@ -15,8 +15,8 @@
             this.model = model;
             this.view.render(this.model.data)
             window.eventHub.on("upload",(data)=>{
-                console.log("new song 模块得到 data");
-                console.log(data)
+                // console.log("new song 模块得到 data");
+                // console.log(data)
                 this.active();
 
             });
