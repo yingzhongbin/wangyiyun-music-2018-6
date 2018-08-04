@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//at.alicdn.com/t/font_710646_u3ni0yplow9.js"></script>
+    <script src="../vendor/av-min.js"></script>
+    <script src="../vendor/moxie.min.js"></script>
+    <script src="../vendor/plupload.min.js"></script>
+    <script src="../vendor/qiniu.min.js"></script>
+    <script src="../vendor/jquery.min.js"></script>
+    <title>网易云音乐专辑</title>
+    <style type="text/css">
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <style type="text/css">
+        *,*::after,*::after{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        a{
+            color:inherit;
+            text-decoration: none;
+        }
+        ul,li{list-style: none;}
+        header{
+            padding: 30px 10px 30px 15px;
+            /*background-color: red;*/
+        }
+        main{
+            /*background-color: gray;*/
+        }
+        header{
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        header::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(20px);
+        }
+        header::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color:rgba(0,0,0,.25);
+        ;
+        }
+        header .img-container{
+            width: 114px;
+            height: 114px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        header .img-container img{
+            height: 100%;
+        }
+        header .img-container span{
+            position: absolute;
+            /*z-index: 3;*/
+            top: 10px;
+            left: 0;
+            padding: 0 8px;
+            height: 17px;
+            color: #fff;
+            font-size: 9px;
+            text-align: center;
+            line-height: 17px;
+            background-color: rgba(217,48,48,.8);
+            border-top-right-radius: 17px;
+            border-bottom-right-radius: 17px;
+        }
+        @media screen and (min-width: 360px){
+            header .img-container{
+                width: 126px;
+                height: 126px;
+            }
+        }
+        @media screen and (min-width: 414px){
+            header .img-container{
+                width: 145px;
+                height: 145px;
+            }
+        }
+        main h3{
+            height: 23px;
+            line-height: 23px;
+            padding: 0 10px;
+            font-size: 12px;
+            color: #666;
+            background-color: #eeeff0;
+            /*background-color:red;*/
+        }
+        main li{
+            /*background-color: red;*/
+            /*height: 40px;*/
+            border-bottom: 1px solid #F0F0F0;
+        }
+        main li a{
+            display: flex;
+        }
+        main li .li-left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            font-size: 17px;
+            color: #999;
+        }
+        main li .li-right{
+            flex-grow: 1;
+            display: flex;
+        }
+        main li .li-right .li-right-left{
+            display: flex;
+            flex-direction: column;
+            padding: 6px 0;
+            flex-grow: 1;
+        }
+        main li .li-right .li-right-right{
+            padding: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        main li .li-right .li-right-right svg{
+            width: 24px;
+            height: 24px;
+            fill:#AAAAAA;
+        }
+        main li .li-right .li-right-left .li-right-left-top{
+            font-size: 17px;
+
+        }
+        main li .li-right .li-right-left .li-right-left-bottom{
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body id="app">
+    <header>
+        <div class="img-container">
+            <img src="#" alt="">
+            <span>歌单</span>
+        </div>
+    </header>
+    <main>
+        <h3>歌曲列表</h3>
+        <div class="song-list">
+        </div>
+    </main>
+    <script src="js/initializers/av.js"></script>
+    <script src="js/initializers/event-hub.js"></script>
+    <script src="js/album.js"></script>
+</body>
+</html>

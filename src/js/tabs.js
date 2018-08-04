@@ -1,4 +1,5 @@
 {
+    // tab求换
     let view = {
         el:"#tabs",
         init(){

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>歌曲上传</title>
+    <script src="//at.alicdn.com/t/font_710646_imoyo2gvn6t.js"></script>
+    <script src="../vendor/av-min.js"></script>
+    <script src="../vendor/moxie.min.js"></script>
+    <script src="../vendor/plupload.min.js"></script>
+    <script src="../vendor/qiniu.min.js"></script>
+    <script src="../vendor/jquery.min.js"></script>
+    <script src="js/initializers/event-hub.js"></script>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main-right.css">
+    <link href="css/main-right-content.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <img src="./img/img-play/logo.png" alt="网易云音乐">
+</header>
+<main>
+    <div class="main-left">
+        <div class="songList-head">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-yinfu"></use>
+            </svg>
+            &nbsp;歌曲列表
+        </div>
+        <div class="songList-main">
+        </div>
+    </div>
+    <link href="css/main-right.css" rel="stylesheet"/>
+    <div class="main-right">
+        <div class="upload-area">
+            <div id="uploadButton">
+                <div class="upload-song">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jiahao"></use>
+                    </svg>
+                    <span>上传音乐</span>
+                </div>
+                <div class="upload-cover">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jiahao"></use>
+                    </svg>
+                    <span>上传封面</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-right-content">
+            <div class="song-form">
+
+            </div>
+            <div class="cover-list">
+                <ol>
+                    <!--<li><img src="img/badu.jpg" alt=""></li>-->
+                    <!--<li><img src="img/badu.jpg" alt=""></li>-->
+                </ol>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="js/initializers/av.js"></script>
+<script src="js/admin/song-form2.js"></script>
+<script src="js/admin/song-list2.js"></script>
+<script src="js/admin/upload-song2.js"></script>
+<script src="js/admin/image-list.js"></script>
+
+</body>
+</html>

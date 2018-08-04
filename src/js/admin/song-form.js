@@ -70,7 +70,6 @@
             //创建一条记录
             let song = new Song();
             //保存一条记录
-            console.log(data.name)
             song.set('name',data.name);
             song.set('singer',data.singer);
             song.set('link',data.link);

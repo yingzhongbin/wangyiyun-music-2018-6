@@ -1,4 +1,5 @@
 {
+    // 切换tab 到  page-3
     let view = {
         el:"#page-3",
         show(){
