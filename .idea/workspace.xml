@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5cd945-f67b-4f88-a056-25560c4dd54e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/admin2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/main-right-content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/main-right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin/image-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin/song-form2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin/song-list2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin/upload-song2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/play/lyricTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/play/regexp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/album-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/album-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/admin/song-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/song-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/album/page-1-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/page-1-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album/page-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/page-1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/page-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album/page-3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/page-3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/play/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/play/play.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/play.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,20 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="admin2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin2.html">
+      <file leaf-file-name="album-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/album-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+            <state relative-caret-position="2887">
+              <caret line="298" column="23" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="song-form2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-1-2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/album/page-1-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/tabs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album-list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/album-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="793">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="song-form2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/admin/song-form2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
+            <state relative-caret-position="325">
+              <caret line="180" column="15" lean-forward="true" selection-start-line="153" selection-start-column="12" selection-end-line="180" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -72,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.cover</find>
       <find>background-size: cover;</find>
       <find>header .inner .cover</find>
       <find>lyric-container</find>
@@ -96,12 +99,13 @@
       <find>timeBreak</find>
       <find>lyricLines</find>
       <find>create</find>
-      <find>render</find>
       <find>newSong</find>
       <find>upload</find>
       <find>newson</find>
       <find>歌名1</find>
       <find>clickImg</find>
+      <find>render</find>
+      <find>find</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -130,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/js/album/page-3.js" />
         <option value="$PROJECT_DIR$/src/js/album/page-2.js" />
         <option value="$PROJECT_DIR$/src/js/album/page-1.js" />
-        <option value="$PROJECT_DIR$/src/js/album/page-1-2.js" />
         <option value="$PROJECT_DIR$/src/album-list.html" />
         <option value="$PROJECT_DIR$/src/js/admin/song-form.js" />
         <option value="$PROJECT_DIR$/src/js/album.js" />
@@ -144,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/album.html" />
         <option value="$PROJECT_DIR$/src/js/album-list.js" />
         <option value="$PROJECT_DIR$/src/js/admin/song-form2.js" />
+        <option value="$PROJECT_DIR$/src/js/album/page-1-2.js" />
       </list>
     </option>
   </component>
@@ -164,8 +168,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="31" />
+    <option name="x" value="358" />
+    <option name="y" value="25" />
     <option name="width" value="1172" />
     <option name="height" value="764" />
   </component>
@@ -189,6 +193,33 @@
               <item name="49 毕设：网易云音乐" type="b2602c69:ProjectViewProjectNode" />
               <item name="49 毕设：网易云音乐" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="49 毕设：网易云音乐" type="b2602c69:ProjectViewProjectNode" />
+              <item name="49 毕设：网易云音乐" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="49 毕设：网易云音乐" type="b2602c69:ProjectViewProjectNode" />
+              <item name="49 毕设：网易云音乐" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="49 毕设：网易云音乐" type="b2602c69:ProjectViewProjectNode" />
+              <item name="49 毕设：网易云音乐" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="49 毕设：网易云音乐" type="b2602c69:ProjectViewProjectNode" />
+              <item name="49 毕设：网易云音乐" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="play" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,19 +299,28 @@
       <workItem from="1533282575440" duration="10171000" />
       <workItem from="1533340775685" duration="1519000" />
       <workItem from="1533351133800" duration="311000" />
-      <workItem from="1533352254693" duration="3759000" />
+      <workItem from="1533352254693" duration="6279000" />
     </task>
+    <task id="LOCAL-00001" summary="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能">
+      <created>1533366193852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533366193853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139078000" />
+    <option name="totallyTimeSpent" value="141598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="31" width="1172" height="764" extended-state="0" />
+    <frame x="358" y="25" width="1172" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49578413" visible="true" weight="0.22949389" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3288364" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294509" />
@@ -325,6 +365,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加删除功能" />
+    <MESSAGE value="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -345,13 +390,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/album-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/play/play.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2266">
@@ -548,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -590,24 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/album/page-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/album/page-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/album/page-1-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -656,13 +673,6 @@
     <entry file="file://$PROJECT_DIR$/src/img/chuangbian.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/album-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/play.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -677,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/album-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="290" column="16" selection-start-line="290" selection-start-column="16" selection-end-line="290" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -691,10 +694,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/album-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/album/page-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/album/page-1-1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/album-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2887">
+          <caret line="298" column="23" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/admin/song-form2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
+        <state relative-caret-position="325">
+          <caret line="180" column="15" lean-forward="true" selection-start-line="153" selection-start-column="12" selection-end-line="180" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/album/page-1-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>

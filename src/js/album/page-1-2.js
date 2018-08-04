@@ -1,7 +1,7 @@
 {
     // 添加歌曲page-1页的 点播的li
     let view = {
-        el: "",
+        el: "ol.songs",
         template: `
         <li>
             <a href="./play.html?id=__id__">
@@ -32,7 +32,7 @@
                 let $li = this.template.replace(`__name__`,song.name)
                     .replace("__singer__",song.singer)
                     .replace("__id__",song.id)
-                $("ol.songs").append($li)
+                $(this.el).append($li)
             })
         }
     }
@@ -42,6 +42,7 @@
         },
         find() {
             var query = new AV.Query('Song');
+            query.matches('album', "love");
             return query.find().then((songs) => {
                 this.data.songs = songs.map((song) => {
                     return {id: song.id, ...song.attributes}
