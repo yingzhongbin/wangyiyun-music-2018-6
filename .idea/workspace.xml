@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5cd945-f67b-4f88-a056-25560c4dd54e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/you.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,8 +75,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background-size: cover;</find>
-      <find>header .inner .cover</find>
+      <find />
+      <find />
       <find>lyric-container</find>
       <find>lines-container</find>
       <find>audio</find>
@@ -87,7 +86,7 @@
       <find>val</find>
       <find>crea</find>
       <find>this.model.data</find>
-      <find>.main-right-content form .form-right textarea</find>
+      <find />
       <find>filt</find>
       <find>gra</find>
       <find>svg</find>
@@ -108,7 +107,7 @@
       <find>render</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
+      <dir />
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -169,7 +168,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="165" />
-    <option name="y" value="23" />
+    <option name="y" value="73" />
     <option name="width" value="1172" />
     <option name="height" value="764" />
   </component>
@@ -235,7 +234,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -298,7 +297,7 @@
       <workItem from="1533282575440" duration="10171000" />
       <workItem from="1533340775685" duration="1519000" />
       <workItem from="1533351133800" duration="311000" />
-      <workItem from="1533352254693" duration="6759000" />
+      <workItem from="1533352254693" duration="6977000" />
     </task>
     <task id="LOCAL-00001" summary="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能">
       <created>1533366193852</created>
@@ -314,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533368739723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加个人专辑">
+      <created>1533369285279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533369285279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142078000" />
+    <option name="totallyTimeSpent" value="142296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="23" width="1172" height="764" extended-state="0" />
@@ -375,17 +381,18 @@
     <MESSAGE value="添加删除功能" />
     <MESSAGE value="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能" />
     <MESSAGE value="添加最新音乐里的搜索 专辑名album 为&quot;love&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加最新音乐里的搜索 专辑名album 为&quot;love&quot;" />
+    <MESSAGE value="添加个人专辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加个人专辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/js/tabs.js</url>
+          <url />
           <line>7</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/js/play/play.js</url>
+          <url />
           <line>14</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
