@@ -17,14 +17,14 @@
             this.$el = $(this.el)
         },
         render(data) {
-            console.log(data);
+            // console.log(data);
             let $ul = $("<ul></ul>")
             for(let i=0;i<data.imgLink.length;i++){
                 let $li = this.template
                 let strings = "imgLink div".split(" ")
                 strings.map((string)=>{
                     $li = $li.replace(`__${string}__`,data[string][i])
-                    console.log($li);
+                    // console.log($li);
                 })
                 $li = $li.replace(`__data-album__`,encodeURIComponent(data["data-album"][i]))
                 $ul.append($li)

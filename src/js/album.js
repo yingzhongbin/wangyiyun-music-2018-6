@@ -27,17 +27,13 @@
             //render ol > li
             $ol = $("<ol></ol>")
             for(let i = 0;i<songs.length;i++){
-                console.log(songs[i]);
                 let strings = "id name singer".split(" ")
-                console.log(strings);
                 let li = this.template
                 strings.map((string)=>{
-                    console.log(string);
                     li = li.replace(`__${string}__`,songs[i][string])
                 })
                 li = li.replace(`__i__`,i+1)
 
-                console.log(li);
                 let $li = $(li)
                 $ol.append(li)
             }
@@ -98,7 +94,6 @@
                     this.model.data.songs.push({...attributes,id})
                 })
                 this.view.render(this.model.data)
-                console.log(this.model.data);
             },()=>{})
         }
     }

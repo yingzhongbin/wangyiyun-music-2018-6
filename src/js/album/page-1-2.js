@@ -45,8 +45,20 @@
             query.matches('album', "love");
             return query.find().then((songs) => {
                 this.data.songs = songs.map((song) => {
-                    return {id: song.id, ...song.attributes}
+                    console.log("find");
+                    console.log(song.attributes);
+                    console.log("find");
+                    return {
+                        id: song.id,
+                        album:song.attributes.album,
+                        cover:song.attributes.cover,
+                        link:song.attributes.link,
+                        lyric:song.attributes.lyric,
+                        name:song.attributes.name,
+                        singer:song.attributes.singer
+                        }
                 });
+
             });
         }
     }
