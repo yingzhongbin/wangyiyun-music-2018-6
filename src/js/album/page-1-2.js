@@ -27,14 +27,29 @@
         },
         render(data) {
             let {songs} = data
-
             songs.map((song) => {
                 let $li = this.template.replace(`__name__`,song.name)
                     .replace("__singer__",song.singer)
                     .replace("__id__",song.id)
                 $(this.el).append($li)
             })
-        }
+        },
+        bindEventHub(){
+            window.eventHub.on("clickTab",(data)=>{
+                $attr = $(data).attr("tab-data")
+                if($attr === "page-1"){
+                    this.show()
+                }else{
+                    this.hide()
+                }
+            });
+        },
+        show(){
+            this.$el.removeClass("hide").addClass("show")
+        },
+        hide(){
+            this.$el.removeClass("show").addClass("hide")
+        },
     }
     let model = {
         data: {
@@ -45,9 +60,6 @@
             query.matches('album', "love");
             return query.find().then((songs) => {
                 this.data.songs = songs.map((song) => {
-                    console.log("find");
-                    console.log(song.attributes);
-                    console.log("find");
                     return {
                         id: song.id,
                         album:song.attributes.album,
@@ -65,12 +77,15 @@
     let controller = {
         init(view, model) {
             this.view = view
+            this.view.init()
+            this.view.bindEventHub()
             this.model = model
             this.model.find().then(() => {
                 // console.log(this.model.data)
                 this.view.render(this.model.data)
             })
-        }
+        },
+
     }
     controller.init(view, model)
 }

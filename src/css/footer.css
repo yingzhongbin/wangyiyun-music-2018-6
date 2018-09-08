@@ -1,0 +1,6 @@
+#footer.hide{
+    display: none;
+}
+#footer.show{
+    display: block;
+}

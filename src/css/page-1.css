@@ -1,0 +1,6 @@
+.songs.hide{
+    display: none;
+}
+.songs.show{
+    display: block;
+}
