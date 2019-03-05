@@ -58,7 +58,7 @@
                     }
                 }
                 this.model.data.history.unshift(content)
-
+                this.model.data.history.length = this.model.data.history.length>8?8:this.model.data.history.length
                 localStorage.setItem("searchHistory",JSON.stringify(this.model.data.history))
                 console.log(this.model.data.history);
                 this.view.$el.addClass("hide")

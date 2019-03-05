@@ -23,15 +23,15 @@
             let lastIndex
             for(let i = 0;i<lyricAndTime.length;i++) {
                 let lyricString = lyricAndTime[i]
-                console.log("lyricAndTime[i]");
-                console.log(lyricAndTime[i]);
+                // console.log("lyricAndTime[i]");
+                // console.log(lyricAndTime[i]);
                 timeBreakTemp =[]
                 while(res = reg.exec(lyricString)){
                     timeBreakTemp.push(res[0])
                     lastIndex = reg.lastIndex;
                 }
-                console.log("timeBreakTemp");
-                console.log(timeBreakTemp);
+                // console.log("timeBreakTemp");
+                // console.log(timeBreakTemp);
                 if(lyricString.slice(lastIndex + 1)) {
                     for (let j= 0;j<timeBreakTemp.length;j++){
                         let minute = timeBreakTemp[j].substr(1,2)
@@ -42,9 +42,7 @@
                     }
                 }
                 newLyrics.sort(this.compare("seconds"))
-                console.log(newLyrics);
-
-
+                // console.log(newLyrics);
             }
             for(let j=0;j<newLyrics.length;j++){
                 $p = $("<p></p>")

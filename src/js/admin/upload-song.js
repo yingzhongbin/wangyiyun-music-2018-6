@@ -19,7 +19,7 @@
                 browse_button: this.view.find('#uploadButton'),         // 上传选择的点选按钮，**必需**
                 uptoken_url : 'http://localhost:8888/uptoken', 
                 get_new_uptoken: false,             // 设置上传文件的时候是否每次都重新获取新的 uptoken
-                domain: 'p9u6wc9sm.bkt.clouddn.com',     // bucket 域名，下载资源时用到，如：'http://xxx.bkt.clouddn.com/' **必需**
+                domain: 'yingzhongbin.xyz',     // bucket 域名，下载资源时用到，如：'http://xxx.bkt.clouddn.com/' **必需**
                 container: this.view.find('#uploadContainer'),             // 上传区域 DOM ID，默认是 browser_button 的父元素，
                 max_file_size: '20mb',             // 最大文件体积限制
                 max_retries: 3,                     // 上传失败最大重试次数

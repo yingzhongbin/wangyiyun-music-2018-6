@@ -62,8 +62,8 @@ let newLyrics = []
 let lastIndex
 for(let i = 0;i<lyricAndTime.length;i++) {
     let lyricString = lyricAndTime[i]
-    console.log("lyricAndTime[i]");
-    console.log(lyricAndTime[i]);
+    // console.log("lyricAndTime[i]");
+    // console.log(lyricAndTime[i]);
     timeBreakTemp =[]
     while(res = reg.exec(lyricString)){
         timeBreakTemp.push(res[0])
