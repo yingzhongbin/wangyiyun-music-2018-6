@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a5cd945-f67b-4f88-a056-25560c4dd54e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/search-result.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/showSearchContent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/admin/updateURL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/album/showSearchContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/updateURL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/album-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/admin/upload-song.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/upload-song.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/admin/upload-song2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/admin/upload-song2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album/searchHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/searchHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/album/searchInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/album/searchInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/play/lyricTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/play/lyricTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/play/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/play/play.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/play.html" afterDir="false" />
-    </list>
+    <list default="true" id="6a5cd945-f67b-4f88-a056-25560c4dd54e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -96,8 +78,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="92">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -369,7 +351,7 @@
       <workItem from="1551350738780" duration="240000" />
       <workItem from="1551490700844" duration="6438000" />
       <workItem from="1551515065489" duration="326000" />
-      <workItem from="1551770097696" duration="691000" />
+      <workItem from="1551770097696" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="调整了歌词部分的位置。&#10;调整admin2.html的bug。&#10;1.新增了点击图片，出现封面链接。&#10;2.上传歌曲仅更新name singer link，不全部更新form表单。&#10;3.添加了  在数据库删除.mp3后缀功能">
       <created>1533366193852</created>
@@ -413,14 +395,22 @@
       <option name="project" value="LOCAL" />
       <updated>1536415281384</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新资源域名">
+      <created>1551770883530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551770883530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198698000" />
+    <option name="totallyTimeSpent" value="199379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="304" y="74" width="1395" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7683215" visible="true" weight="0.2897685" />
@@ -480,7 +470,8 @@
     <MESSAGE value="增加修改个人专辑" />
     <MESSAGE value="自制手机端控制台并应用vconsole" />
     <MESSAGE value="添加搜索页面的搜索功能，历史搜索功能，搜索结果展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加搜索页面的搜索功能，历史搜索功能，搜索结果展示" />
+    <MESSAGE value="更新资源域名" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新资源域名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -866,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="92">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
